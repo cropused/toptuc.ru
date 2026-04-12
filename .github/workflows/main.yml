@@ -42,7 +42,7 @@ jobs:
       - name: Download latest package
         run: |
           Invoke-WebRequest `
-            "http://toptuc.ru/hits_toptuc.ru.zip" `
+            "http://toptuc.ru/hits_toptuc.ru_2.zip" `
             -OutFile "$env:GITHUB_WORKSPACE\hits.zip"
 
       - name: Restore cache
